@@ -31,8 +31,8 @@ def display_praw(name):
                              'Post Date', 'Self Post?', 'Video Post?', 'Domain']]
 
     for thread in subreddit.top('week', limit=50): # TODO: change limit number when actually deploying program. 15 is the testing number.
-        if thread.is_video:
-            continue
+        # if thread.is_video:
+        #     continue
         if 'fb' in thread.url:
             continue
         actualUps = float(thread.upvote_ratio * thread.score) / float(thread.upvote_ratio * 2 - 1)
