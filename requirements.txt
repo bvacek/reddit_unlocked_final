@@ -44,7 +44,6 @@ pickleshare==0.7.4
 prompt-toolkit==1.0.15
 pyasn1==0.3.7
 pyasn1-modules==0.1.5
-pycosat==0.6.2
 pycparser==2.17
 PyDispatcher==2.0.5
 Pygments==2.2.0
